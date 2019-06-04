@@ -33,7 +33,11 @@
      * ReactDOM adicionado
      */
 
-    const div = React.createElement("div", {}, "Olá Mundo React!");
+    const div = React.createElement(
+      "div",
+      { className: "hello" },
+      "Olá Mundo React!"
+    );
     ReactDOM.render(div, document.getElementById("root_um"));
 
     /*
